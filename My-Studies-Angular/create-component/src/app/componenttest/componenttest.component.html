@@ -1,0 +1,32 @@
+<hr>
+<hr>
+<h3> Test Exercici</h3>
+<br> 
+<input
+text="text"
+class="form-control"
+[(ngModel)]="teste_1"
+>
+<br>
+{{ teste_1 }}
+<br>
+<br>
+<button
+[disabled]="!botao" 
+class="btn btn-success"
+(click)="onChangeStatus()"
+>
+    TestandoClick
+</button>
+
+<button 
+class="btn btn-warning"
+(click)="onReset()"
+>
+    CorrigindoClick
+</button>
+<br>
+<br>
+{{ servindoStatus }}
+<br>
+<br>

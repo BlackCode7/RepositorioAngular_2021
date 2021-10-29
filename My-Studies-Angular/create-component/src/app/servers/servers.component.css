@@ -1,0 +1,9 @@
+.botao{
+  display:flex;
+  justify-content: center;
+}
+
+label, input, p{
+  display:flex;
+  justify-content: center;
+}

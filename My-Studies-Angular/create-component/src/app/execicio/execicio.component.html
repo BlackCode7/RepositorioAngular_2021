@@ -1,0 +1,12 @@
+<!--<button class="btn btn-primary" (click)="showSecret = !showSecret">-->
+    <button class="btn btn-primary" (click)="onToggleDisplay()">
+
+    <p *ngIf="showSecret">Secret Password = tuna</p>
+
+    <div *ngFor="let logItem of log1"
+         [ngStyle]="{backgroundColor: logItem >= 5 ? 'blue' : 'transparent'}"
+         ngClass="{ 'white-text': logItem >= 5 }">
+        {{ logItem }}
+    </div>
+    Display Detail
+</button>

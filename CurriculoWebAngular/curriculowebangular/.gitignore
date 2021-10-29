@@ -9,8 +9,6 @@
 
 # dependencies
 /node_modules
-angular-upload-file/node_modules
-My-Studies-Angular/create-component/node_modules
 
 # profiling files
 chrome-profiler-events*.json
